@@ -1,0 +1,16 @@
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+{
+  "cookies": {}
+}
+
