@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>
+        Login
+    </title>
+</head>
+<body>
+    <form method="POST" action="/login">
+    <label>
+        Username:
+    </label>
+    <input type ="text" name="username" required><br><br>
+
+    <label>
+        Password:
+    </label>
+    <input type ="password" name="password" required><br><br>
+    <button type="submit">Login</button>    
+    </form>
+
+    <form method="POST" action="/register">
+    <label>Create New Account:</label><br>
+    <input type="text" name="username" placeholder="New Username" required><br><br>
+    <input type="password" name="password" placeholder="New Password" required><br><br>
+    <input type="text" name="role" placeholder="New Role" required><br><br>
+    <button type="submit">Register</button>
+    </form>
+</body>
+
+</html>
